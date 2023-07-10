@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ABeeZee'serif;
+}
+body{
+    background-image: url("./img/Vector\ 1.png");
+    background: #000;
+}
+
+.container{
+    background-color: #292C34;
+    padding: 41px 103px;
+   
+
+}
+/* *** HEADER STYLE *** */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    color: white;
+    
+}
+
+.about ul{
+
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: white;
+
+}
+.about a{
+    color: white;
+}
+button{
+    background: rgba(255, 255, 255, 0.30);
+    width: 105px;
+    height: 33px;
+}
+/* *** HEADER STYLE STOP *** */
+
+/* *** Increase  *** */
+.text {
+    padding-top: 205px;
+}
+.img{
+    position: relative;
+    background: blue;
+}
+.img1{
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    right: 0px;
+
+}
+.img2{
+    position: absolute;
+    z-index: 3;
+    left: -400px;
+    top: 100px;
+
+}
+.img3{
+    position: absolute;
+    z-index: 4;
+    bottom: -140px;
+    right: -90px;
+}
+  .text button  {
+    color: white;
+    width: 126px;
+    height: 45px;
+} 
+.textImg{
+    display: flex;
+    justify-content: space-between;
+}
